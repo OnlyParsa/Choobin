@@ -1,0 +1,91 @@
+1. داکیومنت دستور زبانی چوبین (Choobin Language)
+فارسی:
+زبان برنامه‌نویسی چوبین یک زبان برنامه‌نویسی ساده و منعطف است که هدف آن آموزش مفاهیم اولیه برنامه‌نویسی به صورت کاربردی است. این زبان از دستورات پایه مانند say, set, repeat, make, و if استفاده می‌کند. در ادامه، دستورات پایه این زبان توضیح داده شده‌اند:
+
+دستور say: این دستور برای چاپ خروجی به کار می‌رود. به عنوان مثال، اگر می‌خواهید پیامی را چاپ کنید، می‌توانید از دستور say استفاده کنید.
+
+
+say "Hello, world!"
+خروجی:
+
+
+Hello, world!
+دستور set: برای تنظیم مقادیر متغیرها از دستور set استفاده می‌شود. این دستور به شما اجازه می‌دهد تا مقدار یک متغیر را تغییر دهید.
+
+
+set x = 10
+خروجی:
+
+
+x = 10
+دستور repeat: دستور repeat برای تکرار یک بلاک کد به تعداد معین استفاده می‌شود.
+
+
+repeat 3 { say "This is repetition!" }
+خروجی:
+
+
+This is repetition!
+This is repetition!
+This is repetition!
+دستور make: این دستور برای تعریف توابع جدید استفاده می‌شود.
+
+
+make increment(x) { set x = x + 1 }
+سپس می‌توانید تابع تعریف شده را صدا کنید:
+
+
+increment(5)
+خروجی:
+
+
+x = 6
+دستور if: دستور شرطی if برای اجرای بلاک کد در صورت صحت یک شرط استفاده می‌شود.
+
+
+if (x > 5) { say "x is greater than 5" }
+English:
+Choobin Language is a simple and flexible programming language designed to teach fundamental programming concepts in a practical way. It uses basic commands like say, set, repeat, make, and if. Below are the basic commands of this language:
+
+say command: This command is used to print output. For example, if you want to print a message, you can use the say command.
+
+
+say "Hello, world!"
+Output:
+
+
+Hello, world!
+set command: The set command is used to assign values to variables. It allows you to change the value of a variable.
+
+
+set x = 10
+Output:
+
+
+x = 10
+repeat command: The repeat command is used to repeat a block of code a certain number of times.
+
+
+repeat 3 { say "This is repetition!" }
+Output:
+
+
+This is repetition!
+This is repetition!
+This is repetition!
+make command: This command is used to define new functions.
+
+
+make increment(x) { set x = x + 1 }
+You can then call the defined function:
+
+
+increment(5)
+Output:
+
+
+x = 6
+if command: The if command is used to execute a block of code if a certain condition is true.
+
+
+if (x > 5) { say "x is greater than 5" }
